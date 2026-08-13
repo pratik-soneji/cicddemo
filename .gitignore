@@ -1,0 +1,18 @@
+# This is a comment - Git will skip this line
+
+# 1. Ignore an exact, specific file
+secrets.json
+
+# 2. Ignore all files matching a specific extension (using wildcards)
+*.log
+*.tmp
+
+# 3. Ignore an entire directory (and everything inside it)
+node_modules/
+build/
+
+# 4. Ignore a file at any depth within the project
+**/config.local.js
+
+# 5. Create an exception (Un-ignore a file using the exclamation mark !)
+!important.log
